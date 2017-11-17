@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# запускается в виде mapper-a в MapReduce job, вход =строчки с доменным именем woman.ru \n avito.ru \n gazeta.ru
+#  пример вывода: google.ru	Hi-Tech	Поисковые системы	Интернет
+
 import sys
 from bs4 import BeautifulSoup
 import requests
